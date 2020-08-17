@@ -1,0 +1,110 @@
+body {
+	font-size: 16px;
+	color: #FFF;
+	background-color: #235090;
+	font-family: 'Oxygen', serif;
+}
+
+#header-nav {
+	background-color: #906323;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+}
+
+.navbar-brand h1 { /* Restaurant name */
+	font-family: 'Suez One', serif;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+/* ICONS */
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #FFF;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #235090;
+}
+
+#nav-list a {
+	font-size: 1.2em;
+}
+
+#nav-list a span {
+	font-size: 1em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #235090;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px and max-width: 1199px) {
+	
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px and max-width: 991px) {
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 5px;
+		height: 60px;
+	}
+	.navbar-brand h1 {	/* Restaurant name */
+		padding-top: 5px;
+		font-size: 6vw; /* 1vw = 1% of viewport width */
+	}
+
+	#collapsable-nav a {
+      font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+    	font-size: 1em;
+    	margin-right: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
